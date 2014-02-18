@@ -5,7 +5,7 @@
  	Modified Date: 22-01-2013
 */
 
-package com.phonegap.plugin.ExtractZipFile;
+package com.luyun.zip;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -21,9 +21,9 @@ import java.util.zip.ZipFile;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-import org.apache.cordova.api.CallbackContext;
-import org.apache.cordova.api.CordovaPlugin;
-import org.apache.cordova.api.PluginResult;
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaPlugin;
+import org.apache.cordova.PluginResult;
 
 import android.util.Log;
 
