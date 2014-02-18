@@ -2,6 +2,7 @@
 var exec = require('cordova/exec'),
     cordova = require('cordova');
 
+/*
 function  successCallback (result) {
     alert("SUCCESS: \r\n"+result );
 }
@@ -9,6 +10,7 @@ function  successCallback (result) {
 function errorCallback (error) {
     alert("ERROR: \r\n"+error );
 }
+*/
 
 var ExtractZipFilePlugin=function(){
 };
