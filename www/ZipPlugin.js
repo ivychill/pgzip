@@ -12,7 +12,7 @@ function errorCallback (error) {
 }
 */
 
-var ExtractZipFilePlugin=function(){
+var ZipPlugin=function(){
 };
 
 ZipPlugin.prototype.extract = function(file, successCallback, errorCallback) 
