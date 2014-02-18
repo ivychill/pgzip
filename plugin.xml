@@ -19,7 +19,7 @@
             <uses-permission android:name="android.permission.READ_PHONE_STATE" />
         </config-file>
       
-        <source-file src="src/android/ExtractZipFilePlugin.java" target-dir="src/com/luyun/zip" />
+        <source-file src="src/android/ZipPlugin.java" target-dir="src/com/luyun/zip" />
 
      </platform>
 

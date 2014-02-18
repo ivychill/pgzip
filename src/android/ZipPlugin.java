@@ -1,6 +1,6 @@
 /*
  	Author: Vishal Rajpal
- 	Filename: ExtractZipFilePlugin.java
+ 	Filename: ZipPlugin.java
  	Created Date: 22-01-2013
  	Modified Date: 22-01-2013
 */
@@ -27,7 +27,7 @@ import org.apache.cordova.PluginResult;
 
 import android.util.Log;
 
-public class ExtractZipFilePlugin extends CordovaPlugin {
+public class ZipPlugin extends CordovaPlugin {
 
 	
 	@Override
