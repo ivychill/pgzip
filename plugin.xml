@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="com.luyun.zip" version="0.1.0">
+    <name>zip</name>
+
+    <js-module src="www/ZipPlugin.js" name="zip">
+        <clobbers target="zip" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="ZipPlugin">
+                <param name="android-package" value="com.luyun.zip.ZipPlugin"/>
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+        </config-file>
+      
+        <source-file src="src/android/ExtractZipFilePlugin.java" target-dir="src/com/luyun/zip" />
+
+     </platform>
+
+</plugin> 
