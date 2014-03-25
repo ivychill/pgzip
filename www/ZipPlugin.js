@@ -4,11 +4,11 @@ var exec = require('cordova/exec'),
 
 /*
 function  successCallback (result) {
-    alert("SUCCESS: \r\n"+result );
+    console.log("SUCCESS: \r\n"+result );
 }
 
 function errorCallback (error) {
-    alert("ERROR: \r\n"+error );
+    console.log("ERROR: \r\n"+error );
 }
 */
 
